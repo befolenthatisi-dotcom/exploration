@@ -9,7 +9,7 @@ function AttractionCard({ attraction, onSelect }) {
         <h3>{name}</h3> 
         <p className="card-location"> {location}</p> 
         <p className="card-desc">{description}</p> 
-        <p className="card-cost"> {cost}</p> 
+        <p className="card-cost">Estimated cost: {cost}</p> 
         <button className="btn" onClick={() => onSelect(attraction)}> 
           View Details 
         </button> 
